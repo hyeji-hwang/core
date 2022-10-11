@@ -21,7 +21,7 @@ public class ComponentFilterAppConfigTest {
         assertThrows(
                 NoSuchBeanDefinitionException.class,
                 () -> ac.getBean("beanB", BeanB.class));
-        
+
     }
 
     @Configuration
